@@ -152,7 +152,7 @@ if __name__ == "__main__":
     kmeans.set_initial_centroids([
         [3, 3],
         [6, 5],
-        [8, 5]])
+        [8, 5]])d
     kmeans.fit()
     # Show Every Iteration
     kmeans.plot_iterations(num_iters=10)
